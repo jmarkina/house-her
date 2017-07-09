@@ -2,6 +2,8 @@
     border: black; 
     font-family: ;
     background-image: ; 
+    background-image: url('img/paper.jpg');
+
 }   
 
 a:link{
@@ -10,9 +12,8 @@ a:link{
 }
 
 #Karina {
-    font-family: 'Shadows Into Light', cursive;; 
+    font-family: 'Shadows Into Light', cursive;
     font-size: 60px;
-
 }
 
 #Tina {
