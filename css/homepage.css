@@ -4,9 +4,15 @@
     background-image: ; 
 }   
 
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
 #Karina {
     font-family: 'Shadows Into Light', cursive;; 
     font-size: 60px;
+
 }
 
 #Tina {
