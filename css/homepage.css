@@ -2,18 +2,23 @@
     border: black; 
     font-family: ;
     background-image: ; 
+    background-image: url('img/paper.jpg');
+
 }   
 
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
 #Karina {
-    font-family: 'Shadows Into Light', cursive;; 
-    border: black;
+    font-family: 'Shadows Into Light', cursive;
     font-size: 60px;
 }
 
 #Tina {
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Homemade Apple', cursive;
-    border: black;
     font-size: 50px;
 }
 
@@ -21,9 +26,7 @@
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Homemade Apple', cursive;
     font-family: 'Reenie Beanie', cursive;
-    border: black;
     font-size: 60px;
-    background-image: ;
 }
 
 #Rosita {
@@ -31,7 +34,6 @@
     font-family: 'Homemade Apple', cursive;
     font-family: 'Reenie Beanie', cursive;
     font-family: 'The Girl Next Door', cursive;
-    border: black;
     font-size: 70px;
 }
 
@@ -41,7 +43,6 @@
     font-family: 'The Girl Next Door', cursive;
     font-family: 'Shadows Into Light', cursive;
     font-family: 'Architects Daughter', cursive;
-    border: black;
     font-size: 60px;
 }
 
