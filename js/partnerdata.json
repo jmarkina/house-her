@@ -1,56 +1,56 @@
 partnername = 
 { "Family Violence Law Center": {
             "website": "http://fvlc.org/",
-            "amount received": "$200",
-            "contact name": "Office Phone",
-            "contact number": "1-510-208-0220",
-            "volunteer needs":[
-                {"translation":"Spanish Translators Needed"},
-                {"housing": "Emergency Housing"},
+            "amount_received": "$200",
+            "contact_name": "Office Phone",
+            "contact_number": "1-510-208-0220",
+            "volunteer_needs":[
+                {"translation":"Spanish"},
+                {"housing": "Emergency"},
                 {"monetary": "$1500"}
             ]
         },
 	"El/La Para TransLatinas": {
             "website": "http://ellaparatranslatinas.yolasite.com/",
-            "amount received": "$50",
-            "contact name": "Staff",
-            "contact number": "(415) 864-7278",
+            "amount_received": "$50",
+            "contact_name": "Staff",
+            "contact_number": "(415) 864-7278",
             "volunteer needs":[
-                {"translation":"Spanish Translators Needed"},
-                {"housing": "None"},
+                {"translation":"Spanish"},
+                {"housing": "null"},
                 {"monetary": "$200"}
             ]
         },
 	"SF Safe House": {
             "website": "http://www.sfsafehouse.org/",
-            "amount received": "$200",
-            "contact name": "General Inquiries",
-            "contact number": "415.643.7861",
-            "volunteer needs":[
-                {"translation":"Spanish Translators Needed"},
-                {"housing": "Transitional Housing needed"},
+            "amount_received": "$200",
+            "contact_name": "General Inquiries",
+            "contact_number": "415.643.7861",
+            "volunteer_needs":[
+                {"translation":"Spanish"},
+                {"housing": "Transitional"},
                 {"monetary": "$5000"}
             ]
         },
 	"Freedom House SF": {
             "website": "http://www.freedomhousesf.org/",
-            "amount received": "$1500",
-            "contact name": "General Inquiries",
-            "contact number": "650-488-0831",
-            "volunteer needs":[
-                {"translation":"None"},
-                {"housing": "None"},
+            "amount_received": "$1500",
+            "contact_name": "General Inquiries",
+            "contact_number": "650-488-0831",
+            "volunteer_needs":[
+                {"translation":"null"},
+                {"housing": "null"},
                 {"monetary": "$3000"}
             ]
         },
 	"W.O.M.A.N. INC.": {
             "website": "http://www.womaninc.org/",
-            "amount received": "$500",
-            "contact name": "Business Line",
-            "contact number": "(415) 864-4777",
-            "volunteer needs":[
-                {"translation":"Spanish Translation services"},
-                {"housing": "More transitional housing"},
+            "amount_received": "$500",
+            "contact_name": "Business Line",
+            "contact_number": "(415) 864-4777",
+            "volunteer_needs":[
+                {"translation":"Spanish, Vietnamese"},
+                {"housing": "Transitional"},
                 {"monetary": "$1000"}
             ]
         }
