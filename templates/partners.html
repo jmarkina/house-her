@@ -204,9 +204,9 @@ for (var key in partner_data){
 	partner_name.innerText = key;
 	var partner_web = document.getElementById( i + '_web');
 	var partner_cname = document.getElementById( i + '_cname');
-	partner_cname.innerText = key;
+	partner_cname.innerText = key.contact_name;
 	var partner_cnum = document.getElementById( i + '_cnum');
-	partner_cnum.innerText = key;
+	partner_cnum.innerText = key.contact_number;
     console.log(partner_web);
     console.log(partner_data[key].website);
 	partner_web.setAttribute("href", partner_data[key].website);
