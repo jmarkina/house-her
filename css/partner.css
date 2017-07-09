@@ -81,4 +81,10 @@ button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring
 	
 .ask {
 	float: right;
+	display: inline-block;
+	width: 50%;
+}
+.given {
+	float: left;
+	width: 50%;
 }
