@@ -2,9 +2,46 @@ h1 {
 	color: black;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .card {
 	background: pink;
 	margin: 0;
 	width: 100%;
 	text-align: center;
+	display: block;
 }
+
+#myProgress {
+  width: 80%;
+  background-color: #ddd;
+  margin: 0 10%;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #4CAF50;
+}
+
+.ask {
+	float: right;
+	display: inline;
+	margin: 0 10%;
+}
+.given {
+	float: left;
+	margin: 0 10%;
+}
+@media screen and (min-width: 760px){
+.card {
+	background: pink;
+	margin: 3% 3%;
+	width: 30%;
+	text-align: center;
+	display: inline-block;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 25px;
+}}
