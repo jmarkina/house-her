@@ -1,0 +1,15 @@
+{ "partnername": {
+            "website": "website", 
+            "amount received": "amount received",
+            "contact name": "contact name",
+            "contact number": "contact number",
+            "volunteer needs":[ 
+                {"translation":"languages"}, 
+                {"housing": "housing need"}, 
+                {"monetary": "monetary need"}
+            ]
+        },
+
+}
+
+
