@@ -1,9 +1,11 @@
 
 
-var story_data = JSON.parse(data);
+var story_data = storydata;
 
-for (var=i; i<length(story_data); i++){
-    console.log(i);
+story = story_data.name;
+console.log(story.story);
+
+for (var i=0; i<=story_data.length; i++){
+    // loop over all stories and save to div
 };
 
-console.log(story_data);
