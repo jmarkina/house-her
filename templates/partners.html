@@ -2,15 +2,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Partners | </title>
-<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+<link rel="stylesheet" type="text/css" href="../css/partner.css">
 <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="../js/partnerdata.json"></script>
 <script type="text/javascript" src="../js/app.js"></script>
 
 </head>
 <body>
-<h1>Partners</h1>
 <div class="card">
+<h1>Partner Name</h1>
+<p><a href="website">website</a></p>
+<p>Contact Name<br>Contact number</p>
+
+<h3>How you can help:</h3>
+<p>Translators: language <a href="">Sign up</a><br>
+Housing: type <a href="">provide</a><br></p>
+<p>inset bar</p>
+
 <script type="text/javascript">
 var obj = JSON.parse(JSON.stringify(partnername));
 console.log(obj);
@@ -19,13 +28,15 @@ var partner_data = obj;
  
 console.log('next line of code');
 for (var key in partner_data){
-    // loop over all stories and save to div
-    console.log(partner_data[key].story);
     console.log(key);
-
+    console.log(partner_data[key].website);
+	console.log(partner_data[key].amount_received);
+	console.log(partner_data[key].contact_name);
+	console.log(partner_data[key].contact_number);	
+	console.log(partner_data[key].volunteer_needs);
 ;};
-
-
+console.log('Outside loop');
+console.log(partner_data["Family Violence Law Center"]);
 </script>
 </div>
 </body>
