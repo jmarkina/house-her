@@ -251,10 +251,20 @@ body {
     display: none !important;
     width: 0;
     height: 0; } }
+.texture {
+  background: url(../img/paper-texture.png); }
+
+.center {
+  float: none;
+  margin: 0 auto; }
+
 h1, h2 {
   font-family: 'Bad Script', cursive; }
 
 p, a {
   font-family: 'Open Sans', sans-serif; }
+
+.full-story {
+  padding: 40px; }
 
 /*# sourceMappingURL=index.css.map */
