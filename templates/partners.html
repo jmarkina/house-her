@@ -39,6 +39,22 @@ console.log('Outside loop');
 console.log(partner_data["Family Violence Law Center"]);
 document.write(partner_data["Family Violence Law Center"].website);
 </script>
+<script>
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 1;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+    }
+  }
+}
+</script>
+
 </div>
 </body>
 </html>
