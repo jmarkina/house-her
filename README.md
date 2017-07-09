@@ -1,5 +1,5 @@
-# NAME
-Name was designed to connect the community with with non-profit organizations providing support for women in difficult situations.  
+# NOTES
+Notes was designed to connect the community with non-profit organizations providing support for women in difficult situations.  
 
 ## Who We Help
 
@@ -8,4 +8,4 @@ Name was designed to connect the community with with non-profit organizations pr
 +Widows     
 +Abuse Victims     
 +Homeless     
-    
++LGBT       
