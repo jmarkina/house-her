@@ -15,7 +15,7 @@
 <div class="card">
 <h1 id ='1_name'>Partner Name</h1>
 <p><a id= "1_web" href="website">website</a></p>
-<p>contact_name<br>contact_number</p>
+<p><span id="1_cname">contact_name</span><br><span id="1_cnum">contact_number</span></p>
 
 <h3>How you can help:</h3>
 <p>Translators: language <a href="">Sign up</a><br>
@@ -30,31 +30,6 @@ Housing: type <a href="">provide</a><br></p>
 <br>
  <button class="w3-button w3-green" onclick="move()">Donate</button> 
 
-<script type="text/javascript">
-var obj = JSON.parse(JSON.stringify(partnername));
-console.log(obj);
-
-var partner_data = obj;
- 
-console.log('next line of code');
-for (var key in partner_data){
-	var i = 1;
-	var name = partner_data[i].key();
-	var partner_name = document.getElementById( i + '_name');
-	partner_name.innerText = key;
-	var partner_web = document.getElementById( i + '_web');
-    console.log(partner_web);
-    console.log(partner_data[key].website);
-	partner_web.setAttribute("href", partner_data[key].website);
-	console.log(partner_data[key].amount_received);
-	console.log(partner_data[key].contact_name);
-	console.log(partner_data[key].contact_number);	
-	console.log(partner_data[key].volunteer_needs);
-	i++;
-;};
-console.log('Outside loop');
-console.log(partner_data["Family Violence Law Center"]);
-</script>
 <script>
 function move() {
   var elem = document.getElementById("myBar");   
@@ -74,7 +49,7 @@ function move() {
 </div>
 
 <div id="partner" class="card">
-<h1>Partner Name</h1>
+<h1 id ='2_name'>Partner Name</h1>
 <p><a href="website">website</a></p>
 <p>contact_name<br>contact_number</p>
 
@@ -91,26 +66,6 @@ Housing: type <a id="webpage" href="">provide</a><br></p>
 <br>
  <button class="w3-button w3-green" onclick="move()">Donate</button> 
 
-<script type="text/javascript">
-var obj = JSON.parse(JSON.stringify(partnername));
-console.log(obj);
-
-var partner_data = obj;
- 
-console.log('next line of code');
-var partner = document.getElementById('partner');
-for (var key in partner_data){
-    console.log(key);
-    console.log(partner_data[key].website);
-	console.log(partner_data[key].amount_received);
-	console.log(partner_data[key].contact_name);
-	console.log(partner_data[key].contact_number);	
-	console.log(partner_data[key].volunteer_needs);
-;};
-console.log('Outside loop');
-console.log(partner_data["Family Violence Law Center"]);
-
-</script>
 <script>
 function move() {
   var elem = document.getElementById("myBar");   
@@ -130,7 +85,7 @@ function move() {
 </div>
 
 <div class="card">
-<h1>Partner Name</h1>
+<h1 id ='3_name'>Partner Name</h1>
 <p><a href="website">website</a></p>
 <p>contact_name<br>contact_number</p>
 
@@ -147,24 +102,6 @@ Housing: type <a href="">provide</a><br></p>
 <br>
  <button class="w3-button w3-green" onclick="move()">Donate</button> 
 
-<script type="text/javascript">
-var obj = JSON.parse(JSON.stringify(partnername));
-console.log(obj);
-
-var partner_data = obj;
- 
-console.log('next line of code');
-for (var key in partner_data){
-    console.log(key);
-    console.log(partner_data[key].website);
-	console.log(partner_data[key].amount_received);
-	console.log(partner_data[key].contact_name);
-	console.log(partner_data[key].contact_number);	
-	console.log(partner_data[key].volunteer_needs);
-;};
-console.log('Outside loop');
-console.log(partner_data["Family Violence Law Center"]);
-</script>
 <script>
 function move() {
   var elem = document.getElementById("myBar");   
@@ -184,7 +121,7 @@ function move() {
 </div>
 
 <div class="card">
-<h1>Partner Name</h1>
+<h1 id ='4_name'>Partner Name</h1>
 <p><a href="website">website</a></p>
 <p>contact_name<br>contact_number</p>
 
@@ -201,24 +138,6 @@ Housing: type <a href="">provide</a><br></p>
 <br>
  <button class="w3-button w3-green" onclick="move()">Donate</button> 
 
-<script type="text/javascript">
-var obj = JSON.parse(JSON.stringify(partnername));
-console.log(obj);
-
-var partner_data = obj;
- 
-console.log('next line of code');
-for (var key in partner_data){
-    console.log(key);
-    console.log(partner_data[key].website);
-	console.log(partner_data[key].amount_received);
-	console.log(partner_data[key].contact_name);
-	console.log(partner_data[key].contact_number);	
-	console.log(partner_data[key].volunteer_needs);
-;};
-console.log('Outside loop');
-console.log(partner_data["Family Violence Law Center"]);
-</script>
 <script>
 function move() {
   var elem = document.getElementById("myBar");   
@@ -238,7 +157,7 @@ function move() {
 </div>
 
 <div class="card">
-<h1>Partner Name</h1>
+<h1 id ='5_name'>Partner Name</h1>
 <p><a href="website">website</a></p>
 <p>contact_name<br>contact_number</p>
 
@@ -255,24 +174,6 @@ Housing: type <a href="">provide</a><br></p>
 <br>
  <button class="w3-button w3-green" onclick="move()">Donate</button> 
 
-<script type="text/javascript">
-var obj = JSON.parse(JSON.stringify(partnername));
-console.log(obj);
-
-var partner_data = obj;
- 
-console.log('next line of code');
-for (var key in partner_data){
-    console.log(key);
-    console.log(partner_data[key].website);
-	console.log(partner_data[key].amount_received);
-	console.log(partner_data[key].contact_name);
-	console.log(partner_data[key].contact_number);	
-	console.log(partner_data[key].volunteer_needs);
-;};
-console.log('Outside loop');
-console.log(partner_data["Family Violence Law Center"]);
-</script>
 <script>
 function move() {
   var elem = document.getElementById("myBar");   
@@ -290,6 +191,35 @@ function move() {
 </script>
 
 </div>
+<script type="text/javascript">
+var obj = JSON.parse(JSON.stringify(partnername));
+console.log(obj);
+
+var partner_data = obj;
+ 
+console.log('next line of code');
+for (var key in partner_data){
+	var i = 1;
+	var partner_name = document.getElementById( i + '_name');
+	partner_name.innerText = key;
+	var partner_web = document.getElementById( i + '_web');
+	var partner_cname = document.getElementById( i + '_cname');
+	partner_cname.innerText = key;
+	var partner_cnum = document.getElementById( i + '_cnum');
+	partner_cnum.innerText = key;
+    console.log(partner_web);
+    console.log(partner_data[key].website);
+	partner_web.setAttribute("href", partner_data[key].website);
+	console.log(partner_data[key].amount_received);
+	console.log(partner_data[key].contact_name);
+	console.log(partner_data[key].contact_number);	
+	console.log(partner_data[key].volunteer_needs);
+	i++;
+;};
+console.log('Outside loop');
+console.log(partner_data["Family Violence Law Center"]);
+</script>
+
 
 </body>
 </html>
