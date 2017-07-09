@@ -3,16 +3,18 @@
   <meta charset="UTF-8">
   <title>Partners | </title>
 <link rel="stylesheet" href="../css/normalize.css">
+<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="../js/partnerdata.json"></script>
 <script type="text/javascript" src="../js/app.js"></script>
-<script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+
 </head>
 <body>
 <h1>Partners</h1>
 <div class="card">
 <script type="text/javascript">
-var obj = jQuery.parseJSON(partnername);
-console.log(obj);
+var obj = JSON.parse(JSON.stringify(partnername));
+console.log(obj)
 </script>
+</div>
 </body>
 </html>
