@@ -1,15 +1,4 @@
-var storydata = { "name": {
-            "story": "story", 
-            "host org": "host org", 
-            "amount received": "amount received",
-            "needs":[ 
-                {"translation":"language"}, 
-                {"housing": "housing need"} , 
-                {"monetary": "monetary need"}
-            ]
-    	},
-
-        "Karina": {
+var storydata = { "Karina": {
             "story": "I was alone except for a controlling and abusive husband. Without Alexie, I knew I would never make it in San Francisco. The language, culture, and people were so different from my home in Ukraine. By escaping his abuse, I would be condemning myself to a world that I did not understand. Jobless, homeless, and friendless would be the words to describe me. How could I decide between these two horrible options? Thankfully, I did not have to. I was able to receive the legal advice and translating services I needed. I am now enrolled in English classes and am building the life I thought I would never achieve.", 
             "host org": "Family Violence Law Center", 
             "amount received": "amount received",
