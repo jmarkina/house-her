@@ -13,7 +13,19 @@
 <div class="card">
 <script type="text/javascript">
 var obj = JSON.parse(JSON.stringify(partnername));
-console.log(obj)
+console.log(obj);
+
+var partner_data = obj;
+ 
+console.log('next line of code');
+for (var key in partner_data){
+    // loop over all stories and save to div
+    console.log(partner_data[key].story);
+    console.log(key);
+
+;};
+
+
 </script>
 </div>
 </body>
