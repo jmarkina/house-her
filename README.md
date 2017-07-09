@@ -1,5 +1,5 @@
-# House-Her
-House-Her was designed to assist all women in finding compatible living situations. Our mission is to bring together women regardless of race, age, family-composition, and current living situation. 
+# NAME
+Name was designed to connect the community with with non-profit organizations providing support for women in difficult situations.  
 
 ## Who We Help
 
@@ -8,7 +8,4 @@ House-Her was designed to assist all women in finding compatible living situatio
 +Widows     
 +Abuse Victims     
 +Homeless     
-## Services We Provide
-
-+Housing Network    
-+Mentor Program    
+    
