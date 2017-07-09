@@ -278,4 +278,11 @@ p, a {
 .full-story {
   padding: 40px; }
 
+.storydata {
+  border: black; }
+
+.short-story {
+  padding: 40px;
+  background: url(../img/paper-texture.png); }
+
 /*# sourceMappingURL=index.css.map */
