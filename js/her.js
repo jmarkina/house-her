@@ -8,6 +8,7 @@ for (var key in story_data){
     var allStories;
     allStories = "<div class='short-story' id=" + key + "><a href='full-story-" + key + ".html'></a>" + story_data[key].story.substr(0,40) + "..." + "</div>";
     document.write(allStories);
+
 };
 
 

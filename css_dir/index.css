@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Bad+Script");
 /*
   Simple Grid
   Learn More - http://dallasbass.com/simple-grid-a-lightweight-responsive-css-grid/
@@ -249,5 +251,31 @@ body {
     display: none !important;
     width: 0;
     height: 0; } }
+.texture {
+  background: url(../img/paper-texture.png); }
+
+.center {
+  float: none;
+  margin: 0 auto; }
+
+ul {
+  padding-left: 0; }
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 20px; }
+    ul li a {
+      text-decoration: none;
+      color: black; }
+
+h1, h2 {
+  font-family: 'Bad Script', cursive; }
+
+p, a {
+  font-family: 'Open Sans', sans-serif; }
+
+.full-story {
+  padding: 40px; }
 
 /*# sourceMappingURL=index.css.map */

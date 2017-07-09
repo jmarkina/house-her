@@ -1,0 +1,20 @@
+.texture {
+	background: url(../img/paper-texture.png);
+}
+.center {
+	float: none;
+	margin: 0 auto;
+}
+ul {
+	padding-left: 0;
+	li {
+		list-style-type: none;
+		display: inline-block;
+		border: 1px solid black;
+		padding: 20px;
+		a {
+			text-decoration: none;
+			color: black;
+		}
+	}
+}
