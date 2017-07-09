@@ -1,11 +1,12 @@
 
 
 var story_data = storydata;
+ 
 
-story = story_data.name;
-console.log(story.story);
-
-for (var i=0; i<=story_data.length; i++){
+for (var key in story_data){
     // loop over all stories and save to div
-};
+    console.log(story_data[key].story);
+    console.log(key);
+
+;};
 
