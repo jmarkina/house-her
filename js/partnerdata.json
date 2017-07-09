@@ -1,15 +1,57 @@
-{ "partnername": {
-            "website": "website", 
-            "amount received": "amount received",
-            "contact name": "contact name",
-            "contact number": "contact number",
-            "volunteer needs":[ 
-                {"translation":"languages"}, 
-                {"housing": "housing need"}, 
-                {"monetary": "monetary need"}
+partnername = 
+{ "Family Violence Law Center": {
+            "website": "http://fvlc.org/",
+            "amount received": "$200",
+            "contact name": "Office Phone",
+            "contact number": "1-510-208-0220",
+            "volunteer needs":[
+                {"translation":"Spanish Translators Needed"},
+                {"housing": "Emergency Housing"},
+                {"monetary": "$1500"}
             ]
         },
-
+	"El/La Para TransLatinas": {
+            "website": "http://ellaparatranslatinas.yolasite.com/",
+            "amount received": "$50",
+            "contact name": "Staff",
+            "contact number": "(415) 864-7278",
+            "volunteer needs":[
+                {"translation":"Spanish Translators Needed"},
+                {"housing": "None"},
+                {"monetary": "$200"}
+            ]
+        }
+	"SF Safe House": {
+            "website": "http://www.sfsafehouse.org/",
+            "amount received": "$200",
+            "contact name": "General Inquiries",
+            "contact number": "415.643.7861",
+            "volunteer needs":[
+                {"translation":"Spanish Translators Needed"},
+                {"housing": "Transitional Housing needed"},
+                {"monetary": "$5000"}
+            ]
+        }
+	"Freedom House SF": {
+            "website": "http://www.freedomhousesf.org/",
+            "amount received": "$1500",
+            "contact name": "General Inquiries",
+            "contact number": "650-488-0831",
+            "volunteer needs":[
+                {"translation":"None"},
+                {"housing": "None"},
+                {"monetary": "$3000"}
+            ]
+        }
+	"W.O.M.A.N. INC.": {
+            "website": "http://www.womaninc.org/",
+            "amount received": "$500",
+            "contact name": "Business Line",
+            "contact number": "(415) 864-4777",
+            "volunteer needs":[
+                {"translation":"Spanish Translation services"},
+                {"housing": "More transitional housing"},
+                {"monetary": "$1000"}
+            ]
+        }
 }
-
-
