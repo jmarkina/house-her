@@ -1,2 +1,7 @@
 # House-Her
-Lack of housing.
+House-Her was designed to assist all women in finding compatible living situations. Our mission is to bring together all women regardless of race, age, family-composition, and current living situation. 
+## Who We Help
+
+### Services Provided
+
+
