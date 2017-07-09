@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Bad+Script");
 /*
   Simple Grid
   Learn More - http://dallasbass.com/simple-grid-a-lightweight-responsive-css-grid/
@@ -249,5 +250,7 @@ body {
     display: none !important;
     width: 0;
     height: 0; } }
+h1 {
+  font-family: 'Bad Script', cursive; }
 
 /*# sourceMappingURL=index.css.map */
