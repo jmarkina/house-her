@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Partners | </title>
+  <title>Partners | Notes</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="../css/normalize.css">
 <link rel="stylesheet" type="text/css" href="../css/partner.css">
@@ -13,208 +13,23 @@
 
 </head>
 <body>
-<div class="card">
-<h1 id ='1_name'>Partner Name</h1>
-<p><a id= "1_web" href="website">website</a></p>
-<p><span id="1_cname">contact_name</span><br><span id="1_cnum">contact_number</span></p>
-
-<h3>How you can help:</h3>
-<p>Translators: language <a href="">Sign up</a><br>
-Housing: type <a href="">provide</a><br></p>
-<div id="myProgress1" class="Progress">
-  <div id="myBar1" class="Bar"></div>
-</div>
-<div>
-<div class="given">amount_received</div>
-<div class="ask">monetary</div>
-</div>
-<br>
- <button onclick="move()">Donate</button> 
-
-<script>
-function move() {
-  var elem = document.getElementById("myBar1");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 100) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-</script>
-
-</div>
-
-<div id="partner" class="card">
-<h1 id ='2_name'>Partner Name</h1>
-<p><a href="website">website</a></p>
-<p>contact_name<br>contact_number</p>
-
-<h3>How you can help:</h3>
-<p>Translators: language <a href="">Sign up</a><br>
-Housing: type <a id="webpage" href="">provide</a><br></p>
-<div id="myProgress2" class="Progress">
-  <div id="myBar2" class="Bar"></div>
-</div>
-<div>
-<div class="given">amount_received</div>
-<div class="ask">monetary</div>
-</div>
-<br>
- <button class="w3-button w3-green" onclick="move()">Donate</button> 
-
-<script>
-function move() {
-  var elem = document.getElementById("myBar2");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 100) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-</script>
-
-</div>
-
-<div class="card">
-<h1 id ='3_name'>Partner Name</h1>
-<p><a href="website">website</a></p>
-<p>contact_name<br>contact_number</p>
-
-<h3>How you can help:</h3>
-<p>Translators: language <a href="">Sign up</a><br>
-Housing: type <a href="">provide</a><br></p>
-<div id="myProgress3" class="Progress">
-  <div id="myBar3" class="Bar"></div>
-</div>
-<div>
-<div class="given">amount_received</div>
-<div class="ask">monetary</div>
-</div>
-<br>
- <button onclick="move()">Donate</button> 
-
-<script>
-function move() {
-  var elem = document.getElementById("myBar3");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 100) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-</script>
-
-</div>
-
-<div class="card">
-<h1 id ='4_name'>Partner Name</h1>
-<p><a href="website">website</a></p>
-<p>contact_name<br>contact_number</p>
-
-<h3>How you can help:</h3>
-<p>Translators: language <a href="">Sign up</a><br>
-Housing: type <a href="">provide</a><br></p>
-<div id="myProgress4" class="Progress">
-  <div id="myBar4" class="Bar"></div>
-</div>
-<div>
-<div class="given">amount_received</div>
-<div class="ask">monetary</div>
-</div>
-<br>
- <button onclick="move()">Donate</button> 
-
-<script>
-function move() {
-  var elem = document.getElementById("myBar4");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 100) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-</script>
-
-</div>
-
-<div class="card">
-<h1 id ='5_name'>Partner Name</h1>
-<p><a href="website">website</a></p>
-<p>contact_name<br>contact_number</p>
-
-<h3>How you can help:</h3>
-<p>Translators: language <a href="">Sign up</a><br>
-Housing: type <a href="">provide</a><br></p>
-<div id="myProgress5" class="Progress">
-  <div id="myBar5" class="Bar"></div>
-</div>
-<div>
-<div class="given">amount_received</div>
-<div class="ask">monetary</div>
-</div>
-<br>
- <button onclick="move()">Donate</button> 
-
-<script>
-function move() {
-  var elem = document.getElementById("myBar5");   
-  var width = 1;
-  var id = setInterval(frame, 10);
-  function frame() {
-    if (width >= 100) {
-      clearInterval(id);
-    } else {
-      width++; 
-      elem.style.width = width + '%'; 
-    }
-  }
-}
-</script>
-
-</div>
 <script type="text/javascript">
 var obj = JSON.parse(JSON.stringify(partnername));
 console.log(obj);
-
+var html = ' ';
 var partner_data = obj;
  
 console.log('next line of code');
 for (var key in partner_data){
 	var i = 1;
-	var partner_name = document.getElementById( i + '_name');
-	partner_name.innerText = key;
-	var partner_web = document.getElementById( i + '_web');
-	var partner_cname = document.getElementById( i + '_cname');
-	partner_cname.innerText = partner_data[key].contact_name;
-	var partner_cnum = document.getElementById( i + '_cnum');
-	partner_cnum.innerText = partner_data[key].contact_number;
-    console.log(partner_web);
+    console.log(key);
     console.log(partner_data[key].website);
-	partner_web.setAttribute("href", partner_data[key].website);
 	console.log(partner_data[key].amount_received);
 	console.log(partner_data[key].contact_name);
 	console.log(partner_data[key].contact_number);	
 	console.log(partner_data[key].volunteer_needs);
+	html = '<div class="card"> <h1>' + key + '</h1><p><a href="' + partner_data.website + '">website</a></p><p>' + partner_data[key].contact_name + '<br>' + partner_data[key].contact_number + '</p><h3>How you can help:</h3><p>Translators: language <a href="">Sign up</a><br>Housing: type <a href="">provide</a><br></p></div>';
+	document.write(html);
 	i++;
 ;};
 console.log('Outside loop');
