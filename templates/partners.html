@@ -28,7 +28,7 @@ for (var key in partner_data){
 	console.log(partner_data[key].contact_name);
 	console.log(partner_data[key].contact_number);	
 	console.log(partner_data[key].volunteer_needs);
-	html = '<div class="card"> <h1>' + key + '</h1><p><a href="' + partner_data.website + '">website</a></p><p>' + partner_data[key].contact_name + '<br>' + partner_data[key].contact_number + '</p><h3>How you can help:</h3><p>Translators: language <a href="">Sign up</a><br>Housing: type <a href="">provide</a><br></p></div>';
+	html = '<div class="card"> <h1>' + key + '</h1><p><a href="' + partner_data[key].website + '">website</a></p><p>' + partner_data[key].contact_name + '<br>' + partner_data[key].contact_number + '</p><h3>How you can help:</h3><p>Translators: language <a href="">Sign up</a><br>Housing: type <a href="">provide</a><br></p><button>Donate</button></div>';
 	document.write(html);
 	i++;
 ;};
