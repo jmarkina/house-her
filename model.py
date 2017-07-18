@@ -13,20 +13,20 @@ class Volunteer(db.Model):
     __tablename__ = "volunteer"
 
     def __repr__(self):
-        return "<Volunteer Name: name=%s Volunteer ID: vol_id=%s>" % (self.name, self.vol_id)
+        return "<Volunteer Name: name=%s Volunteer ID: vol_id=%s>" % (self.vol_name, self.vol_id)
 
 
     vol_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
-    name = db.Column(db.String(40), nullable=False)
+    vol_name = db.Column(db.String(40), nullable=False)
     email = db.Column(db.String(40), nullable=False)
     phone = db.Column(db.String(20), nullable=False)
     services = db.Column(db.String(100), nullable=False)
 
-class Partners(db.Model): 
-    __tablename__ = "partners"
+class Partner(db.Model): 
+    __tablename__ = "partner"
 
     def __repr__(self):
-        return "<Parner Name: part_name=%s Volunteer ID: vol_id=%s>" % (self.part_name, self.part_id)
+        return "<Partner Name: part_name=%s Partner ID: part_id=%s>" % (self.part_name, self.part_id)
 
     part_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     part_name = db.Column(db.String(40), nullable=False)
@@ -35,7 +35,15 @@ class Partners(db.Model):
     cont_phone = db.Column(db.String(20), nullable=False)
 
 class Her(db.Model):
+    __tablename__ = "her"
 
+    def __repr__(self):
+        return "<Her Name: her_name=%s Her ID: her_id=%s>" % (self.her_name, self.her_id)
+
+    her_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    her_name = db.Column(db.String(30), nullable=True)
+    her_needs = db.Column(db.String(100), nullable=True)
+    story = db.Column(db.String(2000), nullable=False)
 
 
 def connect_to_db(app):
@@ -47,7 +55,6 @@ def connect_to_db(app):
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     db.app = app
     db.init_app(app)
-
 
 
 
