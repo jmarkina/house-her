@@ -7,18 +7,18 @@ app = Flask(__name__)
 
 @app.route('/')
 def render_home():
-
+    pass
     return render_template('hhhomepage.html')
 
 
-@app.route('/login'):
+@app.route('/login')
 def render_login(): 
-
+    pass
     
 
-@app.route('/signin'):
+@app.route('/signin')
 def render_login():
-
+    pass
 
 
 

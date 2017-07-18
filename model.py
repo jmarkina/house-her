@@ -7,22 +7,34 @@ db = SQLAlchemy()
 
 #######
 
-class HHUser(db.Model):
-    """this instantiates an HHUser"""
+class Volunteer(db.Model):
+    """this instantiates a volunteer"""
 
-    __tablename__ = "hhuser"
+    __tablename__ = "volunteer"
+
     def __repr__(self):
-        return "<HHUser Name: first=%s " % (self.first)
+        return "<Volunteer Name: name=%s Volunteer ID: vol_id=%s>" % (self.name, self.vol_id)
 
-        user_id = 
-        first = 
-        last = 
-        email =
-        phone = 
-        password =
 
-class HHUsersInfo(db.Model):
-    pass
+    vol_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    name = db.Column(db.String(40), nullable=False)
+    email = db.Column(db.String(40), nullable=False)
+    phone = db.Column(db.String(20), nullable=False)
+    services = db.Column(db.String(100), nullable=False)
+
+class Partners(db.Model): 
+    __tablename__ = "partners"
+
+    def __repr__(self):
+        return "<Parner Name: part_name=%s Volunteer ID: vol_id=%s>" % (self.part_name, self.part_id)
+
+    part_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    part_name = db.Column(db.String(40), nullable=False)
+    cont_name = db.Column(db.String(40), nullable=False)
+    cont_email = db.Column(db.String(40), nullable=False)
+    cont_phone = db.Column(db.String(20), nullable=False)
+
+class Her(db.Model):
 
 
 
